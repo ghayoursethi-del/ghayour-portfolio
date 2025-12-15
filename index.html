@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ghayour Sethi - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="h-full">
+<div id="app-wrapper" class="w-full h-full overflow-auto">
+
+<!-- HERO -->
+<section id="hero" class="min-h-screen flex items-center justify-center px-6 py-20">
+  <div class="max-w-6xl w-full text-center fade">
+    <div class="w-48 h-48 mx-auto rounded-full overflow-hidden border-8 mb-6">
+      <img src="ghayour.jpeg" alt="Profile" class="w-full h-full object-cover">
+    </div>
+
+    <h1 id="hero-name" class="text-6xl font-extrabold mb-4"></h1>
+    <p id="hero-title" class="text-2xl font-semibold mb-4"></p>
+    <p id="hero-tagline" class="text-xl mb-8"></p>
+    <a href="#contact" id="hero-cta" class="btn-primary"></a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section fade">
+  <h2>About Me</h2>
+  <p id="about-text"></p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section fade">
+  <h2>My Skills</h2>
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+
+    <div class="skill-icon">
+      <img src="thumbnail.png" alt="">
+      <p>Photoshop</p>
+    </div>
+
+    <div class="skill-icon">
+      <img src="codi.PNG" alt="">
+      <p>HTML / CSS</p>
+    </div>
+
+    <div class="skill-icon">
+       <img src="bg.jpg" alt="">
+      <div class="emoji">🎨</div>
+      <p>Canva</p>
+    </div>
+
+    <div class="skill-icon">
+      <img src="java.PNG" alt="">      
+      <div class="emoji">⚡</div>
+      <p>JavaScript</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section fade">
+  <h2>Services</h2>
+  <div class="grid md:grid-cols-3 gap-8">
+
+    <div class="service-card">
+      <img src="PRESENTATION.pptx" alt="">
+      <h3>Presentation Design</h3>
+      <p>Professional PowerPoint presentations</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Graphic Design</h3>
+      <p>cards,posters & thumbnail etc</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Professional logo designer</h3>
+      <p>Create Professional logos</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section fade">
+  <h2>Contact</h2>
+  <p id="contact-city"></p>
+  <p id="contact-phone"></p>
+  <p id="contact-email"></p>
+</section>
+
+<footer>
+  © 2025 <span id="footer-name"></span>. All rights reserved.
+</footer>
+
+<script src="script.js"></script>
+</div>
+</body>
+</html>
